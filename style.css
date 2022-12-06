@@ -1,0 +1,108 @@
+/*
+#f7f7f7
+#5e9188
+#3e5954
+#253342
+#232226
+trocar por essa
+
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  max-width: 100%;
+  margin: 0px auto;
+  background-color: #5e9188;
+}
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+  background-color: #5e9188;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f7f7f7;
+}
+.container {
+  max-width: 1000px;
+  background-color: #f7f7f7;
+  padding: 0px;
+  margin: 0px auto;
+}
+.titulo {
+  display: flex;
+  background-color: antiquewhite;
+  height: 500px;
+  background: linear-gradient(150deg, #3e5954, #232226);
+}
+h2 {
+  align-self: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  color: #f7f7f7;
+  padding: 24px;
+}
+.dados {
+  padding: 12px;
+  background: linear-gradient(150deg, #f7f7f7, #5e9188);
+}
+h3 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 100;
+  color: #232226;
+}
+
+form {
+  /* posicionamento */
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto;
+}
+/* Forma de pagamento */
+.pagamento {
+  /* posicionamento */
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+/* titulo da area de input */
+.titulo-campo {
+  /* estilo */
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  align-items: center;
+}
+label,
+input {
+  margin: 0px auto;
+}
+input {
+  width: 200px;
+  height: 20px;
+  font-size: 16px;
+}
+button {
+  height: 40px;
+  width: 90px;
+  margin: 0px auto;
+  padding: 0px;
+  font-size: 24px;
+}
+footer {
+  /* height: 70px; */
+  background: #5e9188;
+}
+.fute {
+  text-align: center;
+  /* padding-top: 24px; */
+}
