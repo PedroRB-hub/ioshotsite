@@ -5,6 +5,11 @@
 #253342
 #232226
 trocar por essa
+#c4c8c5
+#34baab
+#459a96
+#466067
+#484450
 
 */
 * {
@@ -14,18 +19,21 @@ trocar por essa
 header {
   max-width: 100%;
   margin: 0px auto;
-  background-color: #5e9188;
+  /* background-color: #5e9188;*/
+  background-color: #459a96;
 }
 h1 {
   text-align: center;
   font-family: sans-serif;
   font-weight: 100;
-  background-color: #5e9188;
+  color: #f7f7f7;
+  /* background-color: #5e9188; */
+  background-color: #459a96;
 }
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #f7f7f7;
+  background-color: #484450;
 }
 .container {
   max-width: 1000px;
@@ -35,9 +43,8 @@ body {
 }
 .titulo {
   display: flex;
-  background-color: antiquewhite;
   height: 500px;
-  background: linear-gradient(150deg, #3e5954, #232226);
+  background: linear-gradient(150deg, #34baab, #466067);
 }
 h2 {
   align-self: center;
@@ -49,14 +56,14 @@ h2 {
 }
 .dados {
   padding: 12px;
-  background: linear-gradient(150deg, #f7f7f7, #5e9188);
+  background: linear-gradient(150deg, #c4c8c5, #34baab);
 }
 h3 {
   font-family: sans-serif;
   text-align: center;
   font-size: 24px;
   font-weight: 100;
-  color: #232226;
+  color: #484450;
 }
 
 form {
@@ -85,6 +92,7 @@ form {
 label,
 input {
   margin: 0px auto;
+  color: #000;
 }
 input {
   width: 200px;
@@ -100,9 +108,10 @@ button {
 }
 footer {
   /* height: 70px; */
-  background: #5e9188;
+  background: #459a96;
 }
 .fute {
   text-align: center;
+  color: #f7f7f7;
   /* padding-top: 24px; */
 }
